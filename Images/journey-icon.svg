@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(3.000000, 4.000000)">
+            <g id="Group-5">
+                <path d="M2.18076923,2.90769231 L2.18076923,24.5399204" id="Line" stroke="#FFDFB1" stroke-linecap="square"></path>
+                <circle id="Oval" stroke="#FF9802" fill="#FFF5E5" cx="2.18076923" cy="2.18076923" r="2.18076923"></circle>
+                <rect id="Rectangle" fill="#FFC877" x="9.45" y="0" width="15.9923077" height="3.63461538" rx="1.81730769"></rect>
+                <rect id="Rectangle-Copy" fill="#FFC877" x="9.45" y="11.4230769" width="19.6269231" height="3.63461538" rx="1.81730769"></rect>
+                <rect id="Rectangle-Copy-2" fill="#FFC877" x="9.45" y="22.8461538" width="15.9923077" height="3.63461538" rx="1.81730769"></rect>
+                <circle id="Oval-Copy" stroke="#FF9802" fill="#FFF5E5" cx="2.18076923" cy="13.0846154" r="2.18076923"></circle>
+                <circle id="Oval-Copy-2" stroke="#FF9802" fill="#FFF5E5" cx="2.18076923" cy="24.5076923" r="2.18076923"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
