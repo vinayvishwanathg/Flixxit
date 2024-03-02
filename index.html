@@ -1,112 +1,95 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>amCharts Responsive Example</title>
-    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/start/jquery-ui.css"rel="stylesheet" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-    <style>
-    .ui-resizable-helper {
-        border: 1px dotted gray;
-    }
-    .resizable {
-        display: block;
-        width: 800px;
-        height: 500px;
-        padding: 0;
-        border: 2px solid #ddd;
-        overflow: hidden;
-        position: relative;
-    }
-    iframe {
-        width: 100%;
-        height: 100%;
-    }
-    #controls {
-        background: #ccc;
-        opacity: 0.5;
-        padding: 5px 8px;
-        font-size: 14px;
-        font-weight: bold;
-        font-family: Verdana;
-        margin-bottom: 10px;
-    }
-    #dims {
-        background: #ddd;
-        color: #555;
-        padding: 5px 8px;
-        font-size: 14px;
-        font-family: Verdana;
-        width: 100px;
-        text-align: center;
-    }
-    .ui-resizable-se {
-        display: none!important;
-    }
-    </style>
-
-    <script>
-    $(function () {
-        $(".resizable").resizable({
-            animate: true,
-            animateEasing: 'swing',
-            animateDuration: 250,
-            resize: function( event, ui ) {
-                $('#dims').html(ui.size.width+'x'+ui.size.height+'px');
-            }
-        });
-    });
-
-    function setType (type) {
-        $('#iframe').attr('src', type);
-    }
-
-    function reload() {
-        setType($('#type').val());
-    }
-
-    function resize( dim, dir) {
-        var container = $('.resizable');
-        if ( 'w' == dim )
-            container.css({ 'width': container.width() + dir});
-        else
-            container.css({ 'height': container.height() + dir});
-        $('#dims').html(container.width()+'x'+container.height()+'px');
-    }
-    </script>
-
-  </head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Scripbox Demo Account</title>
+    <meta content="Scripbox Demo Account" name="description">
+    <meta content="https://dusy1lvven6c5.cloudfront.net/content/attachment/657/og-home-a8c97ba4e0aba1db981953af8cf20be8b075eec4e370bc13b1085c6949e76b7d.png" property="og:image">
+    <link rel="shortcut icon" type="image/png" href="https://asset2.scripbox.com/images/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" href="https://asset2.scripbox.com/images/favicon.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="canonical" href="https://invest.scripbox.com">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,400i,700"/>
+    <link rel="stylesheet" href="/styles/0.97.2-materialize.css"/>
+  <link href="/styles/main.4cec9129282a529d222a.css" rel="stylesheet"></head>
   <body>
-    <div id="controls">
-      <input type="button" value="w-" onclick="resize('w', -50);" />
-      <input type="button" value="w+" onclick="resize('w', 50);" />
-      <input type="button" value="h-" onclick="resize('h', -50);" />
-      <input type="button" value="h+" onclick="resize('h', 50);" />
-      <select id="type" onchange="setType(this.options[this.selectedIndex].value);">
-        <option value="pie1.html" selected="selected">Pie #1 (Simple w/ legend)</option>
-        <option value="pie2.html"/>Pie #2 (3D w/ legend)</option>
-        <option value="pie3.html"/>Pie #3 (several instances)</option>
-        <option value="serial1.html">Serial #1 (Area)</option>
-        <option value="serial2.html">Serial #2 (Bar &amp; Line)</option>
-        <option value="serial3.html">Serial #3 (Line w/ zoom)</option>
-        <option value="xy.html">XY</option>
-        <option value="radar.html">Radar</option>
-        <option value="gauge.html">Gauge</option>
-        <option value="funnel.html">Funnel</option>
-        <option value="gantt.html">GANTT</option>
-        <option value="stock.html">Stock</option>
-        <option value="map.html">Map</option>
-      </select>
-      <input type="button" value="reload" onclick="reload();" />
-    </div>
-
-    <div id="dims">800x500px</div>
-    <div class="resizable">
-      <iframe id="iframe" src="pie1.html" sytle="border: none; width: 100%; height: 100%;" frameborder="0"></iframe>
-    </div>
-  </body>
-
+    <div id="main"></div>
+    <div id="sff_127__widget-container"></div>
+    <div id="toastBar"></div>
+    <div id="overlay"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" defer="defer"></script>
+    <script src="/js/0.97.3-materialize.min.js" type="text/javascript" defer="defer"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en-IN"></script>
+    <script>
+      var Android = Android || null;
+      var cardPath = [
+        '/dashboard',
+        '/accounts',
+        '/portfolio',
+        '/investment-plan/',
+        '/investments/withdraw',
+        '/four_kinds_of_money',
+        '/discrepancy',
+        '/manage_account',
+        '/preferences',
+        '/signup/welcome-to-scripbox',
+        '/account-statement',
+        '/performance',
+        '/signup/mutual-fund-info',
+        '/investment_info/',
+        '/referral',
+        '/signup/documents-required',
+        '/investment-plan-new/',
+        '/portfolio-new',
+        '/fund-factsheet/FIVFG',
+        '/move-asset/',
+        '/portfolio_scan'
+      ];
+      var pathname = window.location.pathname;
+      for (var i = 0; i < cardPath.length; i++) {
+        if (cardPath[i] === pathname || pathname.search(cardPath[i]) > -1) {
+          document.body.classList.add("sb-card-container");
+          break;
+        } else {
+          document.body.classList.remove("sb-card-container");
+        }
+      }
+    </script>
+    <script>
+      var source = '';
+      if (typeof source === 'string' && (source === 'scripbox_android' || source === 'scripbox_ios')) {
+        window.sessionStorage['user-agent-source'] = source;
+      }
+      function jQueryLoaded() {
+        if (typeof jQuery === 'undefined') {
+          setTimeout(jQueryLoaded, 5000);
+        } else {
+          $(document).ready(function(){
+            var currentWidth=$(window).width();
+            var currentHeight=$(window).height();
+            $(window).resize(function(){
+              clearTimeout(window.resizedFinished);
+              window.resizedFinished = setTimeout(function(){
+                if(
+                  (currentWidth>992 && $(window).width()<=992)||
+                  (currentWidth<993 && $(window).width()>=993)
+                ){
+                  location.reload();
+                }
+              }, 500);
+            });
+          });
+        }
+      }
+    </script>
+    <script nonce="" defer="">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-31140942-9', 'auto');</script>
+  <script type="text/javascript" src="/js/main.js"></script></body>
 </html>
+
