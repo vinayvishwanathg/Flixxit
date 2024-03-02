@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="347px" height="206px" viewBox="0 0 347 206" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#C8C8C8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-2">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="track-record-2008-2018" transform="translate(-87.000000, -325.000000)">
+            <g id="Group-7" transform="translate(-1.000000, 71.000000)">
+                <g id="long-term-money-copy-7" transform="translate(88.000000, 131.000000)">
+                    <g id="graph" transform="translate(0.000000, 120.000000)">
+                        <path d="M9,5 L338,5 C342.418278,5 346,8.581722 346,13 L346,209 L1,209 L1,13 C1,8.581722 4.581722,5 9,5 Z" id="Rectangle-4-Copy"></path>
+                        <path d="M0.5,208.5 L345.589996,208.5" id="Line-9-Copy" stroke="#E2E2E2" stroke-linecap="square"></path>
+                        <g id="GRAPH" transform="translate(19.000000, 0.000000)">
+                            <text id="10k" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="3.42" y="178">10k</tspan>
+                            </text>
+                            <text id="45k" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="1.056" y="34">45k</tspan>
+                            </text>
+                            <text id="25k" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="0.696" y="103">25k</tspan>
+                            </text>
+                            <text id="5-YEARS" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="86.118" y="193">5 YEARS</tspan>
+                            </text>
+                            <text id="7-YEARS" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.5" fill="#333333">
+                                <tspan x="178.318" y="193">7 YEA</tspan>
+                                <tspan x="212.342" y="193">RS</tspan>
+                            </text>
+                            <text id="10-YEARS" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" letter-spacing="0.5" fill="#333333">
+                                <tspan x="262.452" y="193">10 YEA</tspan>
+                                <tspan x="302.208" y="193">RS</tspan>
+                            </text>
+                            <g id="Group-3" transform="translate(31.000000, 0.000000)">
+                                <text id="Scripbox-44,114" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal">
+                                    <tspan x="205.716" y="14" fill="#F58025">Scripbox</tspan>
+                                    <tspan x="223.944" y="31" fill="#333333">44,114</tspan>
+                                </text>
+                                <text id="Nifty-41,344" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal">
+                                    <tspan x="245.986" y="100" fill="#9B9B9B">Nifty</tspan>
+                                    <tspan x="234.8" y="117" fill="#333333">41,344</tspan>
+                                </text>
+                                <circle id="Oval-3" fill="#F76C1D" cx="268" cy="35" r="5"></circle>
+                                <circle id="Oval-3-Copy" fill="#C8C8C8" cx="267" cy="57" r="5"></circle>
+                                <path d="M0,172 C24.1591828,156.430551 50.1591828,142.818679 78,131.164383 C119.761226,113.68294 123.078776,116.592598 172,98.1722347 C204.614149,85.8919922 236.280816,72.5677734 267,58.1995784" id="v" stroke="url(#linearGradient-1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M0,172 C23.8785672,157.907297 50.2119006,145.16916 79,133.78559 C122.182149,116.710234 115.729843,133.262795 172,103.986683 C209.513438,84.4692745 241.180104,61.7981688 267,35.9733658" id="Path-4" stroke="url(#linearGradient-2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
